@@ -56,10 +56,10 @@ export default function Footer() {
             <Link href="/" className="inline-block">
               <div className="relative h-10 w-36">
                 <Image
-                  src="/logo7.png"
+                  src="/logo12.png"
                   alt="Education+ logo"
-                  fill
-                  className="object-contain"
+                  width={100}
+                  height={100}
                 />
               </div>
             </Link>
