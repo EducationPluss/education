@@ -139,7 +139,7 @@ export default function SignUp() {
               <div className="relative h-12 w-44">
                 <Image
                   src="/logo12.png"
-                  alt="Education+"
+                  alt="FInear"
                   width={100}
                   height={100}
                   priority

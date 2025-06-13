@@ -7,7 +7,7 @@ export default function Services() {
   // Testimonials data
   const testimonials = [
     {
-      quote: "Education+ helped me improve my GPA from 3.2 to 3.8 in just one semester. The AI writing assistance and study tools are incredible!",
+      quote: "FInear helped me improve my GPA from 3.2 to 3.8 in just one semester. The AI writing assistance and study tools are incredible!",
       name: "Alex Johnson",
       title: "Computer Science Student",
       avatar: "https://thispersondoesnotexist.com/"
@@ -97,7 +97,7 @@ export default function Services() {
               Student Success Stories
             </h2>
             <p className="text-indigo-200 max-w-3xl mx-auto">
-              Hear from students who have transformed their academic journey with Education+
+              Hear from students who have transformed their academic journey with FInear
             </p>
           </motion.div>
 
@@ -149,7 +149,7 @@ export default function Services() {
           >
             <Link href="/signup">
               <button className="px-8 py-3 bg-yellow-400 text-indigo-900 font-semibold rounded-lg hover:bg-yellow-300 transition">
-                Join Education+ Today
+                Join FInear Today
               </button>
             </Link>
           </motion.div>

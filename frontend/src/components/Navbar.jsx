@@ -21,7 +21,7 @@ export default function Navbar() {
           <div className="relative h-10 w-36">
             <Image
               src="/logo12.png"
-              alt="Education+ Logo"
+              alt="FInear Logo"
               
               className=""
               width={100}
