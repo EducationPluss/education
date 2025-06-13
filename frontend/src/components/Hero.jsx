@@ -28,15 +28,15 @@ export default function Hero() {
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start items-center">
             <Link href="/signup">
-              <button className="px-6 py-3 rounded-xl bg-yellow-400 text-indigo-900 font-semibold hover:bg-yellow-300 transition">
+              <button className="px-6 py-3 ml-6 rounded-xl bg-yellow-400 text-indigo-900 font-semibold hover:bg-yellow-300 transition">
                 Get Started
               </button>
             </Link>
-            <Link href="/documentation">
+            {/* <Link href="/documentation">
               <button className="px-6 py-3 rounded-xl border border-yellow-400 text-yellow-400 flex items-center gap-3 hover:bg-yellow-400 hover:text-indigo-900 transition">
                 Connect Wallet <FaAngleRight />
               </button>
-            </Link>
+            </Link> */}
           </div>
           
           <div className="pt-6 text-gray-400 text-sm">
@@ -72,7 +72,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="absolute bottom-8 left-8 right-8 bg-white/10 backdrop-blur-md p-4 rounded-xl z-20 border border-white/20"
           >
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 text-white">
               <div className="h-8 w-8 rounded-full bg-green-400 flex items-center justify-center">
                 <span className="text-green-900 text-xs font-bold">+5</span>
               </div>

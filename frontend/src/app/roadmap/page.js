@@ -1,34 +1,7 @@
 
-// import Navbar from '@/components/Navbar';
-// import Link from 'next/link';
-// export default function Documentation() {
-//     return (
-//       <div className="p-8">
-//         <Navbar />
 
 import Navbar from "@/components/Navbar";
-
-//         <h1 className="text-2xl italic font-serif font-bold text-blue-700 mt-6">Phase 0ne: MVP (Minimum Viable Product)</h1>
-//         <p>Goal: Launch a lean, functional version to validate core demand and gather early feedback.</p>
-
-//         <h2 className='text-2xl text-blue-600 mt-2'>Core Features</h2>
-//           <p className='text-xl font-bold'>User Authentication & Profiles</p>
-//           <li>Students sign up, set preferences (subjects, level)</li>
-//           <p className='text-xl font-bold'>AI Writing Assistant</p>
-//           <li>Proofreading, grammar correction, basic structure suggestions</li>
-        
-//         <p className='text-xl font-bold'>AI Powered Study Help</p>
-//         <li>Chatbot that answers academic questions from selected subjects</li>
-//         <p className='text-xl font-bold'>Task & Time Management Tool</p>
-//         <li>To-do list with deadlines, reminders, and basic calendar view</li>
-         
-//          <h1 className='text-2xl text-blue-600 mt-4'>Key Objectives</h1>
-//          <li>Launch to early users (High school & College Students)</li>
-//          <li>Collect analytics, feedback, and bug reports</li>
-//       </div>
-//     );
-//   }
-  
+import React from "react";
 export default function RoadmapPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
